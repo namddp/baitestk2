@@ -1,0 +1,49 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.panel{
+  height: max-content;
+  width: max-content;
+  margin: auto;
+  background-color: beige;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.menu button{
+  padding:0 20px;
+  background-color: aqua;
+}
+.list-items{
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.list-items ul{
+  list-style-type: none;
+  text-decoration: none;
+}
+.list{
+  margin: 10px;
+}
+
+.form{
+  margin: 10px;
+}
+.form button{
+  background-color: aqua;
+}
+.item{
+margin: 10px;
+}
